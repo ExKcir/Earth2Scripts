@@ -1,4 +1,4 @@
-Tampermonkey script for Earth2.io with many functions<br>
+<b>Tampermonkey</b> script for Earth2.io with many functions<br>
 <br>
 <br>
 <br>
