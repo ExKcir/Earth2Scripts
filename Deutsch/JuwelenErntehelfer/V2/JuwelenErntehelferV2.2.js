@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      2.2
 // @description  Zählt bei Juwelenernte wieviele Juwelen von T1 und T2 Grundstücken generiert wurden
-// @author       FreeX (0QWUS0HCNP)
+// @author       ExKcir (0QWUS0HCNP)
 // @include      https://*app.earth2.io/
 // @icon         https://www.google.com/s2/favicons?domain=earth2.io
 // @require http://code.jquery.com/jquery-3.4.1.min.js
@@ -13,7 +13,7 @@
 
 
 
-console.log('Juwelen Erntehelfer - Juwelen von T1 oder T2 von FreeX(0QWUS0HCNP) hinzugefügt');
+console.log('Juwelen Erntehelfer - Juwelen von T1 oder T2 von ExKcir(0QWUS0HCNP) hinzugefügt');
 
 
 

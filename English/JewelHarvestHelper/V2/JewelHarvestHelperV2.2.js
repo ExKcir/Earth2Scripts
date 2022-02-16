@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      2.2
 // @description  Counts the amount of jewels generated from T1 and T2 properties and how many came from a single tile property.
-// @author       FreeX (0QWUS0HCNP)
+// @author       ExKcir (0QWUS0HCNP)
 // @include      https://*app.earth2.io/
 // @icon         https://www.google.com/s2/favicons?domain=earth2.io
 // @require http://code.jquery.com/jquery-3.4.1.min.js
@@ -13,7 +13,7 @@
 
 
 
-console.log('Jewel harvest helper by FreeX(0QWUS0HCNP) added');
+console.log('Jewel harvest helper by ExKcir(0QWUS0HCNP) added');
 
 
 

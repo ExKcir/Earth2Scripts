@@ -4,7 +4,7 @@ Er zeigt auch die Gesamtzahl der neu generierten Juwelen an
 
 (Achtung! Nur solange die juwelen nicht geclaimed wurden)
 
-![alt text](https://github.com/FreeXFreeYFreeZ/Earth2Scripts/blob/main/Deutsch/JuwelenErntehelfer/V1/JuwelenErnteHelferVorschauV1.0.PNG?raw=true)
+![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/Deutsch/JuwelenErntehelfer/V1/JuwelenErnteHelferVorschauV1.0.PNG?raw=true)
 
 Dafür ist aber eine spezielle Bezeichnung im Namen der Grundstücke notwendig.
 

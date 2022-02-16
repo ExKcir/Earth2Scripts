@@ -2,7 +2,7 @@ Tampermonkey Script für Earth2.io <br>
 Es wird automatisch abgefragt ob neu generierte Juwelen von T1 oder T2 Grundstücken generiert wurden.
 
 
-![alt text](https://github.com/FreeXFreeYFreeZ/Earth2Scripts/blob/main/Deutsch/JuwelenErntehelfer/V2/JuwelenErnteHelferVorschauV2.PNG?raw=true)
+![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/Deutsch/JuwelenErntehelfer/V2/JuwelenErnteHelferVorschauV2.PNG?raw=true)
 
 
 

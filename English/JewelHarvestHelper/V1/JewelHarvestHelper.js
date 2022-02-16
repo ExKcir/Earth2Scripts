@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.0
 // @description  Counts the amount of jewels generated from T1 and T2 Properties; You need a marker text in the properties title, something like "C1", "C2", "C3" or "T1" for T1 Properties or "T2" for T2 properties.
-// @author       FreeX (0QWUS0HCNP)
+// @author       ExKcir (0QWUS0HCNP)
 // @include      https://*app.earth2.io/
 // @icon         https://www.google.com/s2/favicons?domain=earth2.io
 // @require http://code.jquery.com/jquery-3.4.1.min.js
@@ -33,7 +33,7 @@ var MarkerText3 = "C3"; // If not needed, change it to the same value as MarkerT
 
 
 
-console.log('Jewel harvest helper by FreeX added');
+console.log('Jewel harvest helper by ExKcir added');
 
 
 
