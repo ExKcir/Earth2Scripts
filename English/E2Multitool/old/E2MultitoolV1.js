@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.0
 // @description  E2 Multitool for earth2.io
-// @author       FreeX (0QWUS0HCNP)
+// @author       ExKcir (0QWUS0HCNP)
 // @include      https://*app.earth2.io/
 // @icon         https://www.google.com/s2/favicons?domain=earth2.io
 // @require http://code.jquery.com/jquery-3.4.1.min.js
@@ -11,7 +11,7 @@
 // ==/UserScript==
 
 
-console.log('E2 Multitool by FreeX(0QWUS0HCNP) added');
+console.log('E2 Multitool by ExKcir(0QWUS0HCNP) added');
 
 
 function Output (Data)
@@ -964,7 +964,7 @@ async function MainFunction()
     var ScriptHTML = document.createElement ('div');
     ScriptHTML.innerHTML =
         `<div style="border: 5px solid red;">
-              <div style="width:100%; text-align:center "> <u><b>E2 Multitool by FreeX</b></u><br><br> </div>
+              <div style="width:100%; text-align:center "> <u><b>E2 Multitool by ExKcir</b></u><br><br> </div>
 
               <div  style="width:100%;display: flex; align-items: stretch;  text-align:center; ">
                         
