@@ -1398,7 +1398,7 @@ do
         }while(APIData2.next != null)
 
 SalesTotal = APIData.count;
-Output("------------------------------- <br>Total profit: " + TotalProfit.toFixed(2) + "E$<br><br>Total sales: " + SalesTotal + " properties <br>Successful calculated Sales: " + CountProfitCalcSuccessful + " properties <br>Can't calculate profit for <b>" + (SalesTotal-CountProfitCalcSuccessful) + " </b>properties (Sold gifts?)");
+Output("------------------------------- <br>Total profit: " + TotalProfit.toFixed(2) + "E$<br><br>Total sales: " + SalesTotal + " properties <br>Successful calculated Sales: " + CountProfitCalcSuccessful + " properties <br>Can't calculate profit for <b>" + (SalesTotal-CountProfitCalcSuccessful) + " </b>properties (WIP!)");
 
 
 }
@@ -1469,7 +1469,7 @@ async function MainFunction()
                        <button id="Button_PropertiesSizeListHelp" style="width:5%; border: 1px solid black; background:lightgrey"> ? </button> &nbsp; &nbsp;
 
                        <button id="Button_ProfitCalc" style="width:40%; border: 1px solid black; background:lightgrey">Profit calculator (Properties)</button>
-                       <button id="Button_ProfitCalcHelp" style="width:5%; border: 1px solid black; background:lightgrey"> ? </button> <br>
+                       <button id="Button_ProfitCalcHelp" style="width:5%; border: 1px solid black; background:lightgrey"> ? </button> (WIP) <br>
 
                   </div>
 
