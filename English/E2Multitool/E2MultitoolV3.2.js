@@ -1468,8 +1468,8 @@ async function MainFunction()
                        <button id="Button_PropertiesSizeList" style="width:40%; border: 1px solid black; background:lightgrey">Properties sizes list</button>
                        <button id="Button_PropertiesSizeListHelp" style="width:5%; border: 1px solid black; background:lightgrey"> ? </button> &nbsp; &nbsp;
 
-                       <button id="Button_ProfitCalc" style="width:40%; border: 1px solid black; background:lightgrey">Profit calculator (Properties)</button>
-                       <button id="Button_ProfitCalcHelp" style="width:5%; border: 1px solid black; background:lightgrey"> ? </button> (WIP) <br>
+                       <button id="Button_ProfitCalc" style="width:40%; border: 1px solid black; background:lightgrey">Profit calculator (Properties) <b>(WIP)</b></button>
+                       <button id="Button_ProfitCalcHelp" style="width:5%; border: 1px solid black; background:lightgrey"> ? </button> <br>
 
                   </div>
 
