@@ -33,6 +33,7 @@ Changelog:<br>
 V2.0: Added 3 functions
 V3.0: Added 1 function: profit calculator(properties)
 v3.1: Bugfix for profit calculator(properties)
+v3.2: Bugfix and more information added for profit calculator(properties)
 
 <br>
 
