@@ -30,11 +30,11 @@ Properties counter
 <br>
 
 Changelog:<br>
-V2.0: Added 3 functions
-V3.0: Added 1 function: profit calculator(properties)
-V3.1: Bugfix for profit calculator(properties)
-V3.2: Bugfix and more information added for profit calculator(properties)
-V4.0: Added 1 function: Jewel prices (T1 Cracked); Text fixes
+V2.0: Added 3 functions <br>
+V3.0: Added 1 function: profit calculator(properties)<br>
+V3.1: Bugfix for profit calculator(properties)<br>
+V3.2: Bugfix and more information added for profit calculator(properties)<br>
+V4.0: Added 1 function: Jewel prices (T1 Cracked); Text fixes<br>
 
 <br>
 
