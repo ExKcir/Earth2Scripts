@@ -1732,7 +1732,7 @@ I hope you enjoy the script :)
 <br>
 <br>
 For questions, suggestions and bug report you can contact me on discord: <br>
-FreeU#1454
+ExKcir#1454
 <br>
 <br>
 To support my work you can use my E2 Referral Code: <br>
