@@ -29,7 +29,7 @@ Properties counter
 <br>
 <br>
 
-Changelog:<br>
+<b>Changelog:</b><br>
 V2.0:  <br>
 - Added 3 functions <br><br>
 V3.0: <br>
@@ -42,7 +42,7 @@ V4.0: <br>
 - Added 1 function: Jewel prices (T1 Cracked)<br>
 - Text fixes<br><br>
 V5.0:  <br>
-- Added 1 function: Open bids<br
+- Added 1 function: Open bids
 - Script is now minimizable and maximizable
 - Bugfixes<br>
 - Code optimization <br>
