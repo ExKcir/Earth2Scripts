@@ -30,11 +30,25 @@ Properties counter
 <br>
 
 Changelog:<br>
-V2.0: Added 3 functions <br>
-V3.0: Added 1 function: profit calculator(properties)<br>
-V3.1: Bugfix for profit calculator(properties)<br>
-V3.2: Bugfix and more information added for profit calculator(properties)<br>
-V4.0: Added 1 function: Jewel prices (T1 Cracked); Text fixes<br>
+V2.0:  <br>
+- Added 3 functions <br><br>
+V3.0: <br>
+- Added 1 function: profit calculator(properties)<br><br>
+V3.1: <br>
+- Bugfix for profit calculator(properties)<br><br>
+V3.2: <br>
+- Bugfix and more information added for profit calculator(properties)<br><br>
+V4.0: <br>
+- Added 1 function: Jewel prices (T1 Cracked)<br>
+- Text fixes<br><br>
+V5.0:  <br>
+- Added 1 function: Open bids<br
+- Script is now minimizable and maximizable
+- Bugfixes<br>
+- Code optimization <br>
+- Throttled the speed of the script to avoid 403 forbidden errors<br>
+- Design improvements <br>
+- New status status indicator <br>
 
 <br>
 
