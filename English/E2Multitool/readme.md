@@ -53,6 +53,7 @@ V5.0:  <br>
 V6.0:  <br>
 - added 1 function: essence data
 - fixed function holobuilding data
+- changed referral code 
 
 <br>
 
