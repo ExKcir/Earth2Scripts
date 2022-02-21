@@ -49,7 +49,10 @@ V5.0:  <br>
 - Code optimization <br>
 - Throttled the speed of the script to avoid 403 forbidden errors<br>
 - Design improvements <br>
-- New status status indicator <br>
+- New status status indicator <br><br>
+V6.0:  <br>
+- added 1 function: essence data
+- fixed function holobuilding data
 
 <br>
 
