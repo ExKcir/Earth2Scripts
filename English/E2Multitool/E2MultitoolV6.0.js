@@ -1695,7 +1695,7 @@ async function FeatureEssenceData_AfterClaimAndTransform()
     <button id="Button_FeatureEssenceDataSaveData" style="width:10%; border: 1px solid black; background:lightgrey">Save data local</button> &nbsp; &nbsp; <button id="Button_FeatureEssenceDataGetData" style="width:10%; border: 1px solid black; background:lightgrey">Get saved data</button> &nbsp; &nbsp; <button id="Button_FeatureEssenceDataDeleteData" style="width:15%; border: 1px solid black; background:lightgrey">Delete saved data</button><br>
     `);
 
-    tmp =  Ether + `Ether ---> ` + (APIData2.ESNC-EssenceBeforeClaimAndTransform) + ` Essence (` + (PromisedEssenceBeforeClaimAndTransform-APIData2.PESNC) + ` EDC; ` + ((APIData2.ESNC-EssenceBeforeClaimAndTransform)-(PromisedEssenceBeforeClaimAndTransform-APIData2.PESNC)) + ` OEDC)`;
+    tmp =  Ether + ` Ether ---> ` + (APIData2.ESNC-EssenceBeforeClaimAndTransform) + ` Essence (` + (PromisedEssenceBeforeClaimAndTransform-APIData2.PESNC) + ` EDC; ` + ((APIData2.ESNC-EssenceBeforeClaimAndTransform)-(PromisedEssenceBeforeClaimAndTransform-APIData2.PESNC)) + ` OEDC)`;
 
     $("#Button_FeatureEssenceDataSaveData").click (FeatureEssenceData_SaveData);
     $("#Button_FeatureEssenceDataGetData").click (FeatureEssenceData_GetData);
@@ -1723,7 +1723,7 @@ async function FeatureEssenceData_SaveData()
         localStorage.setItem('E2MultiTool_Essencedata','');
     }
 
-    localStorage.setItem('E2MultiTool_Essencedata', localStorage.getItem('E2MultiTool_Essencedata') + "<br>" + DateAndTime.getFullYear() + "-" + DateAndTime.getMonth() + "-" + DateAndTime.getDate() + " " + DateAndTime.getHours() + ":" + DateAndTime.getMinutes() + ": " + tmp);
+    localStorage.setItem('E2MultiTool_Essencedata', localStorage.getItem('E2MultiTool_Essencedata') + "<br>" + DateAndTime.getFullYear() + "-" + (DateAndTime.getMonth()+1) + "-" + DateAndTime.getDate() + " " + DateAndTime.getHours() + ":" + DateAndTime.getMinutes() + ": " + tmp);
     Output("<b>Saved todays essence data</b>");
     ScriptIsWorking(0);
 
