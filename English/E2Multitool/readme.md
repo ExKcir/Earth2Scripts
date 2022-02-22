@@ -7,31 +7,31 @@ Functions <br>
 ![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/1.PNG?raw=true)
 <br>
 <br>
-Overview
+Overview <br>
 ![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/4.PNG?raw=true)
 <br>
 <br>
-jewel counter
+jewel counter <br>
 ![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/2.PNG?raw=true)
 <br>
 <br>
-essence data
+essence data <br>
 ![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/8.PNG?raw=true)
 <br>
 <br>
-open bids 
+open bids <br>
 ![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/9.PNG?raw=true)
 <br>
 <br>
-T1 jewel prices + fees
+T1 jewel prices + fees <br>
 ![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/3.PNG?raw=true)
 <br>
 <br>
-Holobuilding data
+Holobuilding data <br>
 ![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/5.PNG?raw=true)
 <br>
 <br>
-Properties counter
+Properties counter <br>
 ![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/6.PNG?raw=true)
 ![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/7.PNG?raw=true)
 <br>
