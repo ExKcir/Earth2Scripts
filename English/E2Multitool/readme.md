@@ -15,6 +15,14 @@ jewel counter
 ![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/2.PNG?raw=true)
 <br>
 <br>
+essence data
+![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/8.PNG?raw=true)
+<br>
+<br>
+open bids 
+![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/9.PNG?raw=true)
+<br>
+<br>
 T1 jewel prices + fees
 ![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/3.PNG?raw=true)
 <br>
