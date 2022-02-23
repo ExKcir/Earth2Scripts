@@ -110,7 +110,7 @@ async function GetAPIData(URL)
 
 
 
-   
+
 
     //console.log(APIData);
 
@@ -1466,7 +1466,7 @@ do
                         {
 
                             CountProfitCalcSuccessful++;
-                            Output('Property: <b>' + APIData2.results[l].linked_object.description + '</b> <a style="color: darkblue" href=https://app.earth2.io/#propertyInfo/' + APIData2.results[l].linked_object.id + '>LINK</a> <br>Purchase ' + APIData2.results[l].amount + 'E$ <b>--></b> +' + APIData.results[i].amount + 'E$ Sold <br>Profit: ' + ((APIData.results[i].amount)+(APIData2.results[l].amount)) + 'E$<br>');
+                            Output('Property: <b>' + APIData2.results[l].linked_object.description + '</b> <a style="color: darkblue" href=https://app.earth2.io/#propertyInfo/' + APIData2.results[l].linked_object.id + '>LINK</a> <br>Purchase ' + APIData2.results[l].amount + 'E$ <b>--></b> +' + APIData.results[i].amount + 'E$ Sold <br>Profit: ' + ((APIData.results[i].amount)+(APIData2.results[l].amount)).toFixed(2) + 'E$<br>');
                             //Count total profit
                             TotalProfit = TotalProfit + (APIData.results[i].amount+APIData2.results[l].amount);
 
@@ -1808,7 +1808,7 @@ async function MainFunction()
               <div style="width:100%; text-align:center "> <u><b>E2 Multitool by ExKcir</b></u><br><br> </div>
 
               <div  style="width:100%;display: block; align-items: stretch;  text-align:center; ">
-                        
+
                   <div  style="width:25%; text-align:center; float: left">
                        <b>Functions:</b><br>
 
@@ -1967,6 +1967,5 @@ V6.0
 
 
 MainFunction();
-
 
 
