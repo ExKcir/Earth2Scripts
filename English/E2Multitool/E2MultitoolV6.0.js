@@ -1320,6 +1320,13 @@ do
     j++;
 }while(APIData.next != null)
 
+    // map to dict
+    var listOfT1Props = ListofTileSizesT1.map((x, i) => ({ x, count: ListofTileSizesT1Count[i] }));
+    var listOfT2Props = ListofTileSizesT2.map((x, i) => ({ x, count: ListofTileSizesT2Count[i] }));
+
+    // order dict
+    listOfT1Props = listOfT1Props.sort((a, b) => a.x > b.x ? 1 : -1);
+    listOfT2Props = listOfT2Props.sort((a, b) => a.x > b.x ? 1 : -1);
 
     //Output T1
     ClearOutput();
@@ -1327,16 +1334,16 @@ do
                         <b>Properties sizes counter:</b><br>
             `);
 
-    for(var l = 0;l < ListofTileSizesT1.length;l++)
+    for(var l = 0;l < listOfT1Props.length;l++)
     {
-          Output(ListofTileSizesT1[l] + "-tile T1 Properties: " + ListofTileSizesT1Count[l] + "x");
+        Output(listOfT1Props[l].x + "-tile T1 Properties: " + listOfT1Props[l].count + "x");
     }
 
     Output("<br>");
 
-    for(var m = 0;m < ListofTileSizesT2.length;m++)
+    for(var m = 0;m < listOfT2Props.length;m++)
     {
-          Output(ListofTileSizesT2[m] + "-tile T2 Properties: " + ListofTileSizesT2Count[m] + "x");
+        Output(listOfT2Props[m].x + "-tile T2 Properties: " + listOfT2Props[m].count + "x");
     }
 
 ScriptIsWorking(0);
