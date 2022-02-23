@@ -38,7 +38,7 @@ function ScriptIsWorking (IsWorking)
         TotalApiRequests = 0;
 
         document.getElementById('LoadingBox').style.backgroundColor = "green";
-        document.getElementById('LoadingBox').innerHTML = "script has finished";
+        document.getElementById('LoadingBox').innerHTML = "Script has finished";
     }
     else
     {
@@ -71,7 +71,7 @@ function ScriptIsWorking (IsWorking)
                 document.getElementById('LoadingBox').innerHTML = "Script is working";
                 break;
 
-                case "script has finished":
+                case "Script has finished":
                document.getElementById('LoadingBox').innerHTML = "Script is working";
                 break;
         }
