@@ -61,7 +61,13 @@ V5.0:  <br>
 V6.0:  <br>
 - added 1 function: essence data
 - fixed function holobuilding data
-- changed referral code 
+- changed referral code <br><br>
+V6.1:  <br>
+- properties size list is now sorted (Improvement made by Tobi)
+- bug & text fixes
+- added link to github page 
+
+
 
 <br>
 
