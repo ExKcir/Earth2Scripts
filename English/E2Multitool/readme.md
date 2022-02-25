@@ -65,7 +65,11 @@ V6.0:  <br>
 V6.1:  <br>
 - properties size list is now sorted (Improvement made by Tobi)
 - bug & text fixes
-- added link to github page 
+- added link to github page <br><br>
+V7.0:  <br>
+- added 2 functions: LIT data and Jewel prices (T1 Common)
+- E2Multitool now stays minimized or maximized after a reload of the page
+
 
 
 
