@@ -1,7 +1,7 @@
 This script is a tampermonkey script, you need tampermonkey installed to run it: <br>
 <br>
 <br>
-#<b>Install Tampermonkey and add E2 Multitool (PC)<b>
+#Install Tampermonkey and add E2 Multitool (PC)
 1. For Chrome install this Extension: <a href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo">Tampermonkey for Google Chrome</a><br>
 For Firefox install this Extension: <a href="https://addons.mozilla.org/de/firefox/addon/tampermonkey/">Tampermonkey for Firefox</a><br> <br>
 2. After the installation you should see the tampermonkey icon:<br>
