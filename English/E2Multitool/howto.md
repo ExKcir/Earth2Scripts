@@ -19,7 +19,7 @@ Left click it<br><br>
 Left click on tampermonkey and it should look like this:<br>
 ![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/picstut/6.PNG?raw=true)<br>
 <br><br><br><br><br>
-<b>Install Tampermonkey and add E2 Multitool (Android)</b>
+<h1>Install Tampermonkey and add E2 Multitool (Android)</h1>
 <br>
 1. Install Kiwi browser: <a href="https://play.google.com/store/apps/details?id=com.kiwibrowser.browser">Kiwi browser for android (Google Play Store)</a><br><br>
 2. Inside Kiwi browser go to settings and click Extensions<br>
