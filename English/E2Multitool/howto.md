@@ -29,7 +29,7 @@ Left click on tampermonkey and it should look like this:<br>
 ![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/picstut/a3.jpg?raw=true)<br><br>
 5. Install the first extension found<br>
 ![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/picstut/a4.jpg?raw=true)<br><br>
-6. Now go to settings and you can find tampermonkey as the lsst entry, click it<br>
+6. Now go to settings and you can find tampermonkey as the last entry, click it<br>
 ![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/picstut/a5.jpg?raw=true)<br><br>
 7. Now click create new userscript<br>
 ![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/picstut/a6.jpg?raw=true)<br><br>
