@@ -1,4 +1,4 @@
-This script is a tampermonkey script, you need tampermonkey installed to run it: <br>
+E2Multitool is a tampermonkey script, you need tampermonkey installed to run it: <br>
 <br>
 <br>
 <h1>Install Tampermonkey and add E2 Multitool (PC)</h1>
