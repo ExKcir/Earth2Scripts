@@ -63,7 +63,7 @@ V5.0:  <br>
 - Code optimization <br>
 - Throttled the speed of the script to avoid 403 forbidden errors<br>
 - Design improvements <br>
-- New status indicator <br><br>
+- New status indicator <br>
 - Bugfix and more information added for profit calculator(properties)<br><br>
 V4.0: <br>
 - Added 1 function: Jewel prices (T1 Cracked)<br>
