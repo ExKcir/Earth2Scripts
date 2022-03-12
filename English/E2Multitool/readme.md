@@ -39,6 +39,8 @@ Properties counter <br>
 
 <b>Changelog:</b><br>
 
+V8.2:<br>
+- Bugfix for deposit/withdrawal data<br><br>
 V8.1:<br>
 - Bugfix for deposit/withdrawal data<br><br>
 V8.0:<br>
