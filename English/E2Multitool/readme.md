@@ -73,9 +73,9 @@ V5.0:  <br>
 V4.0: <br>
 - Added 1 function: Jewel prices (T1 Cracked)<br>
 - Text fixes<br><br>
+V3.2: <br><br>
 V3.1: <br>
 - Bugfix for profit calculator(properties)<br><br>
-V3.2: <br>
 V3.0: <br>
 - Added 1 function: profit calculator(properties)<br><br>
 V2.0:  <br>
