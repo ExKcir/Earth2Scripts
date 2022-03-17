@@ -39,9 +39,13 @@ Properties counter <br>
 
 <b>Changelog:</b><br>
 
+V9.0:<br>
+- New option: Speed throttling
+- Code optimization 
+- Design optimization<br><br>
 V8.3:<br>
 - Improved error handeling: If a error appear, the multitool now shows the error code, waits 2 minutes and then resumes
-- code optimization <br><br>
+- Code optimization <br><br>
 V8.2:<br>
 - Bugfix for deposit/withdrawal data<br><br>
 V8.1:<br>
