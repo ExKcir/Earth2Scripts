@@ -39,6 +39,10 @@ Properties counter <br>
 
 <b>Changelog:</b><br>
 
+V10.0:<br>
+- New function: jewel counter + list
+- Bugfix for profit calculator & (Ref-code) income calculator
+-(Ref-code) income calculator optimization (Now only shows Ref-Code income through other users)<br><br>
 V9.0:<br>
 - New option: Speed throttling
 - Code optimization 
