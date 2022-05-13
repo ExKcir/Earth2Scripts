@@ -39,6 +39,9 @@ Properties counter <br>
 
 <b>Changelog:</b><br>
 
+V10.1:<br>
+- Bugfix for jewel counter and jewel counter + list functions (Had errors because E2 changed something in the API):
+Removed jewels on bazar counter inside the functions <br><br>
 V10.0:<br>
 - New function: Jewel counter + list
 - Bugfix for profit calculator & (Ref-code) income calculator
