@@ -39,6 +39,9 @@ Properties counter <br>
 
 <b>Changelog:</b><br>
 
+V11.0:<br>
+- New Function: Properties Map:<br>
+Shows a 3D map with owned properties and properties data<br><br>
 V10.1:<br>
 - Bugfix for jewel counter and jewel counter + list functions (Had errors because E2 changed something in the API):<br>
 Removed jewels on bazar counter inside the functions <br><br>
