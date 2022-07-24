@@ -39,9 +39,17 @@ Properties counter <br>
 
 <b>Changelog:</b><br>
 
+
+V12.0:<br>
+- New functions for properties map:<br>
+Function for loading/updating and saving properties data from E2<br>
+Data now needs only loaded once and is saved local.<br>
+Filters for the map: All properties, T1,T2,singles,750tile,with holo,all resources,gold, oil, coal, limestone, iron<br>
+Ignore singles checkbox  <br><br>
 V11.0:<br>
-- New Function: Properties Map:<br>
-Shows a 3D map with owned properties and properties data<br><br>
+- New function: Properties map:<br>
+Shows a 3D map with owned properties and properties data<br>
+- Version/update check<br><br>
 V10.1:<br>
 - Bugfix for jewel counter and jewel counter + list functions (Had errors because E2 changed something in the API):<br>
 Removed jewels on bazar counter inside the functions <br><br>
