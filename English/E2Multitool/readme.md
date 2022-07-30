@@ -12,13 +12,13 @@ Overview <br>
 <br>
 <br>
 Properties Map <br>
-![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/10.PNG?raw=true)
-![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/11.PNG?raw=true)
+![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/10.png?raw=true)
+![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/11.pngraw=true)
 <br>
 <br>
 Resources list <br>
-![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/12.PNG?raw=true)
-![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/13.PNG?raw=true)
+![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/12.png?raw=true)
+![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/13.png?raw=true)
 <br>
 <br>
 Jewel counter <br>
