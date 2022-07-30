@@ -39,7 +39,12 @@ Properties counter <br>
 
 <b>Changelog:</b><br>
 
-
+V13.1:<br>
+- Bugfix for resources list (Load/update properties data button was not clickable) <br><br>
+V13.0:<br>
+- New function: Resources list <br>
+Shows a list of properties with resources on it for each different resource.<br>
+At the end of each list it shows a counter for total properties/tiles and how many are T1/T2/T1 C1/T1 C2/T1 C3 <br><br>
 V12.0:<br>
 - New functions for properties map:<br>
 Function for loading/updating and saving properties data from E2<br>
