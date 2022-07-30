@@ -13,7 +13,7 @@ Overview <br>
 <br>
 Properties Map <br>
 ![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/10.png?raw=true)
-![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/11.pngraw=true)
+![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/11.png?raw=true)
 <br>
 <br>
 Resources list <br>
