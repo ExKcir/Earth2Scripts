@@ -11,15 +11,25 @@ Overview <br>
 ![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/4.PNG?raw=true)
 <br>
 <br>
-jewel counter <br>
+Properties Map <br>
+![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/10.PNG?raw=true)
+![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/11.PNG?raw=true)
+<br>
+<br>
+Resources list <br>
+![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/12.PNG?raw=true)
+![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/13.PNG?raw=true)
+<br>
+<br>
+Jewel counter <br>
 ![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/2.PNG?raw=true)
 <br>
 <br>
-essence data <br>
+Essence data <br>
 ![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/8.PNG?raw=true)
 <br>
 <br>
-open bids <br>
+Open bids <br>
 ![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/9.PNG?raw=true)
 <br>
 <br>
