@@ -49,6 +49,12 @@ Properties counter <br>
 
 <b>Changelog:</b><br>
 
+V13.2:<br> 
+- Textoutput optimizations for resources list function <br>
+- Added date and time data for saved properties data <br>
+- Added total properties and tiles counter for saved properties data <br>
+- Improved console output <br>
+- Code optimizations <br><br>
 V13.1:<br>
 - Bugfix for resources list (Load/update properties data button was not clickable) <br><br>
 V13.0:<br>
