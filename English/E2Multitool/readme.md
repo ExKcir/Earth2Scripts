@@ -49,6 +49,13 @@ Properties counter <br>
 
 <b>Changelog:</b><br>
 
+V14.1:<br> 
+- Design optimization (Bigger text size)<br><br>
+V14.0:<br> 
+- New function: profile upgrade<br>
+Function for upgrading the own profil page with more data.<br>
+Under settings you can choose between these options:<br>
+Resources indikator, holobuilding indicator, property ID,property class (if T1), Holobuilding data(size of the holobuilding in m3), transformed essence, resources of property, resources of profile (how many tiles/properties of each ressource, holobuilding data of the property (total holobuildings, total m3 space), info about local saved properties data<br><br>
 V13.2:<br> 
 - Textoutput optimizations for resources list function <br>
 - Added date and time data for saved properties data <br>
