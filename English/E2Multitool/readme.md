@@ -49,6 +49,8 @@ Properties counter <br>
 
 <b>Changelog:</b><br>
 
+V14.2:<br> 
+- Design optimization<br><br>
 V14.1:<br> 
 - Design optimization (Bigger text size)<br><br>
 V14.0:<br> 
