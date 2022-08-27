@@ -5259,7 +5259,7 @@ Version: ` + version  + /* `<br>Latest version: ` + LatestVersion + */`<br>You c
     $("#Button_ProfilUpgradeSettings").click (FeatureProfilUpgradeSettings);
     $("#Button_ProfilUpgradeHelp").click (FeatureProfileUpgradeHelp);
 
-    $("#Button_PropertiesMapGetProperties").click({param1: "0"},LoadMapProperties);
+    $("#Button_PropertiesMapGetProperties").click({param1: "1"},LoadMapProperties);
     $("#Button_DownloadPropertiesAsCSV").click (DownloadSavedPropertiesDataAsCSV);
 
 
