@@ -49,6 +49,12 @@ Properties counter <br>
 
 <b>Changelog:</b><br>
 
+V15.1:<br>
+- Bugfix for the download function<br>
+V15.0:<br>
+- New function: Download local saved properties data as CSV<br>
+Added a download button for local saved properties data on the main menu and for the profile upgrade function (under the info for local saved properties data)<br>
+- Design optimization(For profile upgrade function)<br>
 V14.2:<br> 
 - Design optimization<br><br>
 V14.1:<br> 
