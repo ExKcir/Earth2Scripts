@@ -11,9 +11,15 @@ Overview <br>
 ![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/4.PNG?raw=true)
 <br>
 <br>
-Properties Map <br>
+Properties map <br>
 ![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/10.png?raw=true)
 ![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/11.png?raw=true)
+<br>
+<br>
+Profile upgrade function <br>
+![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/14.png?raw=true)
+![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/15.png?raw=true)
+![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/16.png?raw=true)
 <br>
 <br>
 Resources list <br>
