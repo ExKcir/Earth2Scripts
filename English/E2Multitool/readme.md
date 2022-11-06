@@ -85,7 +85,7 @@ Resources indikator, holobuilding indicator, property ID,property class (if T1),
 - Improved console output <br>
 - Code optimizations 
 #### V13.1:<br>
-- Bugfix for resources list (Load/update properties data button was not clickable) <br><br>
+- Bugfix for resources list (Load/update properties data button was not clickable)
 #### V13.0:<br>
 - New function: Resources list <br>
 Shows a list of properties with resources on it for each different resource.<br>
