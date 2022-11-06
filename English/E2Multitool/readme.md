@@ -3,13 +3,7 @@
 <br>
 <br>
 <br>
-- [Installation of the script](#installation-of-the-script)
-- [Preview](#preview)
-- [Changelog](#changelog)
 
-<br>
-<br>
-<br>
 
 # Installation of the script
 English tutorial: https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/howto.md <br>
