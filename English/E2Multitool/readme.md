@@ -55,7 +55,7 @@ Properties counter <br>
 
 # <b>Changelog:</b><br>
 
-## V15.1:<br>
+#### V15.1:<br>
 - Bugfix for the download function<br>
 ## V15.0:<br>
 - New function: Download local saved properties data as CSV<br>
