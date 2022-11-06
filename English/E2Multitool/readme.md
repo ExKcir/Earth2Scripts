@@ -3,6 +3,11 @@
 <br>
 <br>
 <br>
+# Installation of the script
+English tutorial: https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/howto.md <br>
+German tutorial: https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/howto_de.md <br>
+German video tutorial: https://www.youtube.com/watch?v=7E11NIQ9yQg&t=138s <br>
+
 # Preview
 Functions <br>
 ![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/1.PNG?raw=true)
