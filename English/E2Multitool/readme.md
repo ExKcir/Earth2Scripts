@@ -5,7 +5,7 @@
 <br>
 - [Installation of the script](#installation-of-the-script)
 - [Preview](#preview)
-- [Changelog](#-b-changelog---b--br-)
+- [Changelog](#changelog)
 <br>
 <br>
 <br>
@@ -65,7 +65,7 @@ Properties counter <br>
 <br>
 <br>
 
-# <b>Changelog:</b><br>
+# Changelog
 
 #### V15.1:
 - Bugfix for the download function
