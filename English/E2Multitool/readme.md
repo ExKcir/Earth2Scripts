@@ -7,22 +7,22 @@
 ![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/1.PNG?raw=true)
 <br>
 <br>
-### Overview <br>
+Overview <br>
 ![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/4.PNG?raw=true)
 <br>
 <br>
-## Properties map <br>
+Properties map <br>
 ![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/10.png?raw=true)
 ![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/11.png?raw=true)
 <br>
 <br>
-## Profile upgrade function <br>
+Profile upgrade function <br>
 ![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/14.png?raw=true)
 ![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/15.png?raw=true)
 ![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/16.png?raw=true)
 <br>
 <br>
-## Resources list <br>
+Resources list <br>
 ![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/12.png?raw=true)
 ![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/13.png?raw=true)
 <br>
@@ -55,9 +55,9 @@ Properties counter <br>
 
 # <b>Changelog:</b><br>
 
-##V15.1:<br>
+## V15.1:<br>
 - Bugfix for the download function<br>
-##V15.0:<br>
+## V15.0:<br>
 - New function: Download local saved properties data as CSV<br>
 Added a download button for local saved properties data on the main menu and for the profile upgrade function (under the info for local saved properties data)<br>
 - Design optimization(For profile upgrade function)<br>
