@@ -61,7 +61,7 @@ Properties counter <br>
 <br>
 <br
 Stake data<br>
-![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/17.PNG?raw=true)
+![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/17.png?raw=true)
 <br>
 <br>
 
