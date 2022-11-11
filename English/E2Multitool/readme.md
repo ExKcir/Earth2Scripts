@@ -59,7 +59,12 @@ Properties counter <br>
 ![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/6.PNG?raw=true)
 ![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/7.PNG?raw=true)
 <br>
+<br
+Stake data<br>
+![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/17.PNG?raw=true)
 <br>
+<br>
+
 
 # Changelog
 
