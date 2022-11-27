@@ -68,7 +68,7 @@ Stake data<br>
 
 # Changelog
 #### V24.0:
-- 3 new functions for the properties map function:
+- 3 new functions for the properties map function:<br>
 Display all properties with more than x tiles, <br>
 display all properties with less than x tiles, <br>
 display all properties within a certain range of tiles
@@ -115,7 +115,7 @@ Shows how many claims were staked, refunded and approved + how much essence were
 "," in the property description no longer disturb the  csv formatting and every property has all data again.
 
 #### V19.1:
-Due to a change to the Earth2 API in the last few days the "Load/update properties data" function no longer worked properly.<br>
+- Due to a change to the Earth2 API in the last few days the "Load/update properties data" function no longer worked properly.<br>
 With this update it should work as usual again.
 
 #### V19.0:
@@ -138,6 +138,17 @@ Shows a list of all properties with an EPL on it.<br>
 #### V15.1:<br>
 - Bugfix for the download function
 
+#### V16.0:<br>
+- More data for the "Load/update properties data" function and the .CSV download:
+EPL, purchase price, current value, purchase date, LIT counter, LIT total amount<br>
+- Optimization of the data query for the "Load/update properties data" function<br>
+- Bugfix for local saving of properties data (Speical characters no longer disturbs some functions)
+
+#### V15.1:<br>
+- New function: "Download saved properties data as CSV"<br>
+- Added the "Load/update properties data" button to the main page of the multitool
+- Design optimizations of the profile upgrade function
+
 #### V15.0:<br>
 - New function: Download local saved properties data as CSV<br>
 Added a download button for local saved properties data on the main menu and for the profile upgrade function (under the info for local saved properties data)<br>
@@ -148,7 +159,7 @@ Added a download button for local saved properties data on the main menu and for
 - Design optimization (Bigger text size)
 #### V14.0:<br> 
 - New function: profile upgrade<br>
-Function for upgrading the own profil page with more data.<br>
+Function for upgrading the own profile page with more data.<br>
 Under settings you can choose between these options:<br>
 Resources indikator, holobuilding indicator, property ID,property class (if T1), Holobuilding data(size of the holobuilding in m3), transformed essence, resources of property, resources of profile (how many tiles/properties of each ressource, holobuilding data of the property (total holobuildings, total m3 space), info about local saved properties data
 #### V13.2:<br> 
