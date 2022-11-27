@@ -13,6 +13,7 @@ German video tutorial: https://www.youtube.com/watch?v=7E11NIQ9yQg&t=138s <br>
 # Preview
 Functions <br>
 ![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/1.PNG?raw=true)
+![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/18.png?raw=true)
 <br>
 <br>
 Overview <br>
