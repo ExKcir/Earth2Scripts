@@ -68,7 +68,7 @@ Stake data<br>
 
 # Changelog
 #### V24.0:
-- 3 new functions for the properties map function: <br>
+- 3 new functions for the properties map function:
 1. Display all properties with more than x tiles <br>
 2. Display all properties with less than x tiles<br>
 3. Display all properties within a certain range of tiles<br>
