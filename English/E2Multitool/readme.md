@@ -28,6 +28,7 @@ Properties map <br>
 Profile upgrade function <br>
 ![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/14.png?raw=true)
 ![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/15.png?raw=true)
+![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/19.jpg?raw=true)
 ![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/16.png?raw=true)
 <br>
 <br>
