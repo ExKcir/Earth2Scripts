@@ -21,7 +21,7 @@ Overview <br>
 <br>
 <br>
 Properties map <br>
-![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/10.png?raw=true)
+![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/10_1.png?raw=true)
 ![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/11.png?raw=true)
 <br>
 <br>
