@@ -67,10 +67,78 @@ Stake data<br>
 
 
 # Changelog
+#### V24.0:
+- 3 new functions for the properties map function: <br>
+1. Display all properties with more than x tiles <br>
+2. Display all properties with less than x tiles<br>
+3. Display all properties within a certain range of tiles<br>
 
-#### V15.1:
+#### V23.2:
+- Bugfix/optimization for the load/update properties data function
+
+#### V23.1:
+- Profile upgrade function (Advanced profile data, advanced property data and advanced slotting data) works correctly again.<br>
+(Was broken because of the latest layout update from E2) <br>
+- Code optimizations
+
+#### V23.0:
+- Added (HF)/(UF) for the resources data of a property (profile upgrade function)<br>
+- Improved loading of advanced property data (profile upgrade function)
+
+#### V22.1:
+- CSV download of properties data is working again on firefox.<br>
+- All jewel prices functions are working again (They were broken because of a API change some time ago)<br>
+- Code optimizations
+
+#### V22.0:
+- New function: Resources and holobuildings data for the slotting page.<br>
+- Extension for the "Jewel harvest helper" function: The function now counts how many jewels are from 750 tile properties.<br>
+- Bugfix for the "Load/update properties data" function: The multitool no longer crashes for some users during LIT data query.<br>
+- Textfix for the CSV download function: "Titel" column is now corrected to "Title".
+
+#### V21.1:
+- Advanced profile data from profile upgrade function will be displayed again if activated<br>
+(Was broken because of the latest layout update vom E2) <br>
+- Code optimizations <br>
+- Jewel prices (T1) and jewel prices (T2) functions are working again<br>
+(They were broken because of a API change some time ago)
+
+#### V21.0:
+- Added HF data for the resources overview of the profile upgrade function
+
+#### V20.0:
+- New function: "Stake data": <br>
+Shows how many claims were staked, refunded and approved + how much essence were staked, refunded and rewarded.
+
+#### V19.2:
+- Two bugfixes for the CSV download function: <br>
+"," in the property description no longer disturb the  csv formatting and every property has all data again.
+
+#### V19.1:
+Due to a change to the Earth2 API in the last few days the "Load/update properties data" function no longer worked properly.<br>
+With this update it should work as usual again.
+
+#### V19.0:
+- Added better background for "Properties map"-function<br>
+- Added rotation and rotation control buttons for "Properties map"-function: <br>
+"Rotation ON/OFF", "Slower" and "Faster"
+
+#### V18.0:
+- New function: "List my EPL's":<br>
+Shows a list of all properties with an EPL on it.<br>
+- Code optimizations
+
+#### V17.1:<br>
+- Bugfix for profile upgrade function: Properties with EPL now display the advanced properties data <br>
+- Code optimizations
+
+#### V17.0:<br>
+- New data for profile upgrade function: Lit counter and amount received data for properties
+
+#### V15.1:<br>
 - Bugfix for the download function
-#### V15.0:
+
+#### V15.0:<br>
 - New function: Download local saved properties data as CSV<br>
 Added a download button for local saved properties data on the main menu and for the profile upgrade function (under the info for local saved properties data)<br>
 - Design optimization(For profile upgrade function)
