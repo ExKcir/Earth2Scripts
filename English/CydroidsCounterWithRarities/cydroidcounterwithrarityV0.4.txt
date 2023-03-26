@@ -161,7 +161,7 @@ for(var i = 0; i<Object.keys(data.data).length; i++)
 
 
 //Outputs
-console.log("\n\n\n\n\nTotal Droids: " + TotalDroids + "\n(Cydroids built + under construction)\n");
+console.log("\n\n\n\n\nTotal cydroids: " + TotalDroids + "\n(Cydroids built + under construction)\n");
 console.log("\n\n------- Rarities: ------- \n(Only build cydroids;cydroids under construction are not counted)\n");
 console.log("Common: " + DroidswithRarity[0]);
 console.log("Uncommon: " + DroidswithRarity[1]);
