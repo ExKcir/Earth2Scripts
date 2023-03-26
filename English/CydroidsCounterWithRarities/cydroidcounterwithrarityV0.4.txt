@@ -1,0 +1,173 @@
+//Cydroids counter with rarities script by ExKcir (Ref-Code: E2Multitool)
+//For console
+//V0.4
+
+
+var Pages = 1;
+var DroidsIDS = [];
+var TotalDroids = 0;
+var DroidswithRarity = Array(5).fill(0);
+
+
+ function timeout(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+
+
+
+for(var k = 1; k<=Pages; k++)
+{
+	let response = await fetch("https://r.earth2.io/droids/landfields?q=&sortBy=id&sortDir=desc&page=" + k, {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7",
+    "if-none-match": "W/\"438bf420f0c924bf1d4785abddc1e1e6\"",
+    "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"98\", \"Google Chrome\";v=\"98\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "x-csrftoken": document.getElementsByName("csrfmiddlewaretoken")[0].value
+  },
+  "referrer": "https://app.earth2.io/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  //"body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+  
+  
+  
+
+});
+  	 var data = await response.json();
+  	 
+	 
+	Pages = data.meta.pages;
+	//console.log("Pages: " + Pages)
+
+    for(var i = 0; i<Object.keys(data.data).length; i++)
+    {
+	  if(Object.keys(data.data[i].meta.droidIds).length > 0)
+		{
+        		TotalDroids += Object.keys(data.data[i].meta.droidIds).length;
+				
+				for(u = 0; u < Object.keys(data.data[i].meta.droidIds).length; u++)
+				{
+					DroidsIDS.push(data.data[i].meta.droidIds[u]);
+				}
+				
+   		 }
+	}
+
+
+
+
+console.log(k +"/" + Pages + " pages");
+console.log("Wait 500ms"); 
+await timeout(500);
+}
+
+//console.log("Droids in list: " + Object.keys(DroidsIDS).length)
+
+var CydroidsCheckedCounter = 0;
+var AllDroidsLink = "https://r.earth2.io/droids?";
+//console.log(DroidsIDS.length);
+
+
+for(l = 0; CydroidsCheckedCounter < DroidsIDS.length; l++, CydroidsCheckedCounter++)
+{
+	//console.log("Counter: " + CydroidsCheckedCounter)
+	AllDroidsLink = AllDroidsLink + "ids[]=" + DroidsIDS[CydroidsCheckedCounter] + "&";
+	
+	if(l == 100 || (CydroidsCheckedCounter+1) == DroidsIDS.length )
+	{
+	  
+	   
+	  /* DroidsIDS.forEach(function(element) {
+            AllDroidsLink = AllDroidsLink + "ids[]=" + element + "&"
+        });*/
+
+
+
+
+
+let response = await fetch(AllDroidsLink, {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7",
+    "if-none-match": "W/\"438bf420f0c924bf1d4785abddc1e1e6\"",
+    "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"98\", \"Google Chrome\";v=\"98\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "x-csrftoken": document.getElementsByName("csrfmiddlewaretoken")[0].value
+  },
+  "referrer": "https://app.earth2.io/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  //"body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+  
+  
+  
+
+});
+var data = await response.json();
+
+
+
+for(var i = 0; i<Object.keys(data.data).length; i++)
+    {
+	  if(data.data[i].attributes.rarity == "common")
+		{
+        		DroidswithRarity[0]++;
+   		}
+	if(data.data[i].attributes.rarity == "uncommon")
+		{
+        		DroidswithRarity[1]++;
+   		}
+	if(data.data[i].attributes.rarity == "rare")
+		{
+        		DroidswithRarity[2]++;
+   		}
+	if(data.data[i].attributes.rarity == "epic")
+		{
+        		DroidswithRarity[3]++;
+   		}
+	if(data.data[i].attributes.rarity == "legendary")
+		{
+        		DroidswithRarity[4]++;
+   		}
+	}
+		
+		
+		
+		l = 0;
+		AllDroidsLink = "https://r.earth2.io/droids?";
+	}
+}
+
+
+
+
+		
+
+
+
+//Outputs
+console.log("\n\n\n\n\nTotal Droids: " + TotalDroids + "\n(Cydroids built + under construction)\n");
+console.log("\n\n------- Rarities: ------- \n(Only build cydroids;cydroids under construction are not counted)\n");
+console.log("Common: " + DroidswithRarity[0]);
+console.log("Uncommon: " + DroidswithRarity[1]);
+console.log("Rare: " + DroidswithRarity[2]);
+console.log("Epic: " + DroidswithRarity[3]);
+console.log("Legendary: " + DroidswithRarity[4]);
+
+
+
