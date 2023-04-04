@@ -1,0 +1,33 @@
+//Raid notifications analysis script by ExKcir (Ref-Code: E2Multitool)
+//For console
+//V2.0
+
+var TotalRaidsSuccessful = 0;
+var TotalRaidsUnSuccessful = 0;
+var TotalRaidsAbandoned = 0;
+var TotalEtherRaided = 0.00;
+
+let response = await fetch("/api/v2/my/messages/?items=9999&limit=9999&message_class=NOTIFICATION&offset=0");
+ 
+var data = (await response.json()).results.filter(n => n.message_category === "RAIDING");
+//console.log(data);	 
+	 
+for(var k = 0; k<data.length; k++)
+{
+	if(data[k].event_type == "DROID_RAID_SUCCESSFUL") TotalRaidsSuccessful++;
+	if(data[k].event_type == "DROID_RAID_FAILED") TotalRaidsUnSuccessful++;
+	if(data[k].event_type == "DROID_RAID_ABANDONED") TotalRaidsAbandoned++;
+		
+	if(data[k].data.etherAmount != null) TotalEtherRaided += data[k].data.etherAmount;		
+}
+	 
+console.log("Total raids:\t\t\t" + (TotalRaidsSuccessful+TotalRaidsUnSuccessful+TotalRaidsAbandoned) +
+"\nRaids successful:\t\t" + TotalRaidsSuccessful +
+"\nRaids unsuccessful:\t\t" + TotalRaidsUnSuccessful +
+"\nRaids abandoned:\t\t" + TotalRaidsAbandoned +
+"\nE-ther raided:\t\t\t" + TotalEtherRaided.toFixed(2) +
+	
+"\n\nØE-ther/successful raid:\t" + (TotalEtherRaided/TotalRaidsSuccessful).toFixed(2) +
+"\nØE-ther/raid:\t\t\t\t" + (TotalEtherRaided/(TotalRaidsSuccessful+TotalRaidsUnSuccessful+TotalRaidsAbandoned)).toFixed(2) +
+"\nRaid successrate: \t\t\t" + (TotalRaidsSuccessful/(TotalRaidsSuccessful+TotalRaidsUnSuccessful+TotalRaidsAbandoned)*100).toFixed(2)+"%");
+	
