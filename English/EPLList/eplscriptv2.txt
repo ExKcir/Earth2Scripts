@@ -1,0 +1,55 @@
+//EPL Script by ExKcir (E2Multitool)
+//V2
+
+var UserID = ""; //Add ID of User
+var Pages = 1;  //Change to number of pages on the profile
+
+var dataoutput = "";
+
+
+for(var k = 0; k<Pages; k++)
+{
+	let response = await fetch("https://r.earth2.io/landfields?items=60&page=" + (k+1) + "&userId=" +UserID, {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7",
+    "if-none-match": "W/\"438bf420f0c924bf1d4785abddc1e1e6\"",
+    "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"98\", \"Google Chrome\";v=\"98\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "x-csrftoken": document.getElementsByName("csrfmiddlewaretoken")[0].value
+  },
+  "referrer": "https://app.earth2.io/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  //"body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+});
+  	 var data = await response.json();
+  	 // console.log(await response.json());
+	//console.log(data.landfields);
+
+
+    for(var i = 0; i<Object.keys(data.landfields).length; i++)
+    {
+	  if(data.landfields[i].epl != null)
+		{
+        		dataoutput+= "\n\nEPL: ->" + data.landfields[i].epl +"<-\n https://app.earth2.io/#propertyInfo/" + data.landfields[i].id;
+   		 }
+}
+}
+
+
+
+
+
+
+
+//Output
+console.log(dataoutput);
+
+
