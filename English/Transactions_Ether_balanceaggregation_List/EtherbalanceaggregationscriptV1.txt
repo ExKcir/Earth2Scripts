@@ -1,0 +1,63 @@
+//Ether balance aggregation script by ExKcir (Ref-Code: E2Multitool)
+//For console
+//V1.0
+
+
+
+// SETTINGS: 
+var Pages = 17; //Amount of transaction pages for E-ther -> Balance aggregation
+
+
+
+
+
+
+
+
+
+var Output = [];
+
+for(var k = 0; k<Pages; k++)
+{
+	let response = await fetch("https://r.earth2.io/transactions/resources?items=11&ticker=ETHR&type=BALANCE_AGGREGATION&page=1" + (k+1), {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7",
+    "if-none-match": "W/\"438bf420f0c924bf1d4785abddc1e1e6\"",
+    "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"98\", \"Google Chrome\";v=\"98\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "x-csrftoken": document.getElementsByName("csrfmiddlewaretoken")[0].value
+  },
+  "referrer": "https://app.earth2.io/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  //"body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+});
+  	 var data = await response.json();
+  
+
+
+    for(var i = 0; i<Object.keys(data.data).length; i++)
+    {
+	data.data[i].tileCount = data.data[i].link.tilesCount;
+      data.data[i].description = data.data[i].link.description;
+	data.data[i].id = data.data[i].link.id;
+
+	delete data.data[i].link;
+	  Output.push(data.data[i] );
+    }
+}
+
+
+
+
+
+
+console.table(Output);
+
