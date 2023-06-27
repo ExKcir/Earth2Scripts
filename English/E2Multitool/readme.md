@@ -18,6 +18,7 @@ Functions <br>
 <br>
 Overview <br>
 ![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/4.PNG?raw=true)
+![alt text](https://github.com/ExKcir/Earth2Scripts/blob/main/English/E2Multitool/previews/20.png?raw=true)
 <br>
 <br>
 Properties map <br>
