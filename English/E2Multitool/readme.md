@@ -72,7 +72,7 @@ Stake data<br>
 
 #### V32.0:
 - Added style switching function<br>
-- Added a new style: "E2 like (By THEMEGA)". Style made by THEMEGA<br>
+- Added a new style: "E2 like style(By THEMEGA)". Style made by THEMEGA<br>
 - Selected function button has now colored background in functions menu<br>
 - Design is now more responsive  (e.g. zoom should be no longer break the design)<br>
 - Code optimizations (CSS)
