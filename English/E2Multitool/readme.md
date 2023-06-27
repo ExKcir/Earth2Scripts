@@ -69,6 +69,42 @@ Stake data<br>
 
 
 # Changelog
+
+#### V32.0:
+- Added style switching function<br>
+- Added a new style: "E2 like (By THEMEGA)". Style made by THEMEGA<br>
+- Selected function button has now colored background in functions menu<br>
+- Design is now more responsive  (e.g. zoom should be no longer break the design)<br>
+- Code optimizations (CSS)
+
+#### V31.0:
+- Added 2 new functions: "Cydroids rarities" and "Raid notifications analysis"<br>
+- Code optimizations
+
+#### V30.0:
+- Added 6 new doughnut charts for the resources tab of the profil tracker (statistics) function
+
+#### V29.0:
+- Profile tracker function: <br>
+  • Added resources tab (with a lot of data and filters!)<br>
+  • 3 new doughnut charts for "tiles & properties" tab<br>
+  • New better style
+
+#### V28.0:
+- Added new profile tracker function<br>
+- Preparation for more data for the profile tracker<br>
+
+#### V27.0:
+- Again a preparation for the new upcoming profile tracker feature<br>
+- Added trading value to local saved properties data<br>
+- Code optimizations
+
+#### V26.0:
+- Preparation update for profile tracker function 
+
+#### V25.0:
+- New function: "Raid data"
+
 #### V24.0:
 - 3 new functions for the properties map function:<br>
 Display all properties with more than x tiles, <br>
