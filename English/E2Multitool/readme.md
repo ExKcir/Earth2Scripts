@@ -71,6 +71,10 @@ Stake data<br>
 
 # Changelog
 
+#### V33.0:
+- Fixed "Jewel counter" function (Was broken because of a API change) <br>
+- Fixed "Stake data" function (Was broken because of a API change)
+
 #### V32.0:
 - Added style switching function<br>
 - Added a new style: "E2 like style(By THEMEGA)". Style made by THEMEGA<br>
