@@ -71,6 +71,11 @@ Stake data<br>
 
 # Changelog
 
+#### V33.1:
+- Added profit/loss calculation for "stake data" function
+- Added changelog link 
+- Github link and changelog link now open in a new browser tab
+
 #### V33.0:
 - Fixed "Jewel counter" function (Was broken because of a API change) <br>
 - Fixed "Stake data" function (Was broken because of a API change)
