@@ -71,6 +71,10 @@ Stake data<br>
 
 # Changelog
 
+#### V34.0:
+- Fixed "Load/update properties data" function (Was broken because of a API change) <br>
+- Fixed style for the "Raid notifications analysis" function
+
 #### V33.1:
 - Added profit/loss calculation for "stake data" function
 - Added changelog link 
