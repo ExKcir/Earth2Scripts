@@ -70,6 +70,9 @@ Stake data<br>
 
 
 # Changelog
+#### V35.0:
+- Fixed a bug with the "Load/update properties data" and "Profile upgrade" functions which caused some properties to have no data <br>
+- Code optimizations for "Load/update properties data" function (Is now much faster; 3 minutes instead of 30 minutes for ~1000 properties!)
 
 #### V34.0:
 - Fixed "Load/update properties data" function (Was broken because of a API change) <br>
