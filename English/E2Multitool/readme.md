@@ -70,6 +70,11 @@ Stake data<br>
 
 
 # Changelog
+
+#### V36.0:
+- New function: Cydroids counter: Shows a list of cydroids types and the total count of every type
+- "Load/update properties data" - "LIT data" function: Fixed a bug and better error handeling for LIT transaction with missing data.
+
 #### V35.0:
 - Fixed a bug with the "Load/update properties data" and "Profile upgrade" functions which caused some properties to have no data <br>
 - Code optimizations for "Load/update properties data" function (Is now much faster; 3 minutes instead of 30 minutes for ~1000 properties!)
