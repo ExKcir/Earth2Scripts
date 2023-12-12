@@ -71,6 +71,13 @@ Stake data<br>
 
 # Changelog
 
+#### V37.0:
+- Added "Other scripts" menu (as beta release) for importing console scripts and scripts from other developers to the multitool. <br>
+Each added script gets its own function button in the "other scripts" menu <br>
+Output from developer console will also redirected to the multitool. <br>
+Table output from the script will also be printed out in the multitool as a sortable table.<br>
+- Code optimizations
+
 #### V36.0:
 - New function: Cydroids counter: Shows a list of cydroids types and the total count of every type
 - "Load/update properties data" - "LIT data" function: Fixed a bug and better error handeling for LIT transaction with missing data.
