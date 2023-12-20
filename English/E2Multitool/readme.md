@@ -71,6 +71,9 @@ Stake data<br>
 
 # Changelog
 
+#### V37.1:
+- Code optimizations for "Other scripts" function
+
 #### V37.0:
 - Added "Other scripts" menu (as beta release) for importing console scripts and scripts from other developers to the multitool. <br>
 Each added script gets its own function button in the "other scripts" menu <br>
