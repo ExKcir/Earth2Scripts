@@ -1,0 +1,97 @@
+<SCRIPTNAME>ClaimedE-therWithSearchTerm-200pages-Bormla</SCRIPTNAME>
+
+
+<SCRIPTAUTHOR>ExKcir</SCRIPTAUTHOR>
+
+
+<SCRIPTCODE>
+
+
+// ------ SETTINGS: ------ Adjust this part below!
+var Pages = 200; //Amount of transaction pages for E-ther -> Claimed E-ther (100 entries per page)
+var SearchTerm = "Bormla";  //Search Term for filter. It is not case sensitive
+
+
+
+var Output = [];
+var OutputFiltered = [];
+var IsSuccessfu = 0;
+
+for(var k = 0; k<Pages; k++)
+{
+
+	IsSuccessfu = 0;
+
+	while(IsSuccessfu == 0)
+	{
+
+	let response = await fetch("https://r.earth2.io/transactions/resources?items=100&ticker=ETHR&type=GENERATED_RESOURCE_CLAIM&page=" + (k+1), {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7",
+    "if-none-match": "W/\"438bf420f0c924bf1d4785abddc1e1e6\"",
+    "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"98\", \"Google Chrome\";v=\"98\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "x-csrftoken": document.getElementsByName("csrfmiddlewaretoken")[0].value
+  },
+  "referrer": "https://app.earth2.io/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  //"body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+});
+  	 var data = await response.json();
+
+	if(data != undefined)
+	{
+		IsSuccessfu = 1;
+	}
+	else
+	{
+		console.log("Got an error, will try again");
+	}
+}
+  
+
+
+    for(var i = 0; i<Object.keys(data.data).length; i++)
+    {
+	data.data[i].tileCount = data.data[i].link.tileCount;
+        data.data[i].description = data.data[i].link.description;
+	data.data[i].id = data.data[i].link.id;
+	data.data[i].ether = data.data[i].amount;
+	data.data[i].etherpertile = (data.data[i].amount/data.data[i].tileCount).toFixed(4);
+	data.data[i].essencepertile = (data.data[i].etherpertile/15.384).toFixed(4);
+	
+
+	delete data.data[i].link;
+	delete data.data[i].amount;
+	delete data.data[i].balanceAfter;
+	delete data.data[i].balanceChangeType;
+	delete data.data[i].ticker;
+
+	Output.push(data.data[i]);
+
+	if(String(data.data[i].description).toLowerCase().includes(SearchTerm.toLowerCase()) || String(data.data[i].location).toLowerCase().includes(SearchTerm.toLowerCase()))
+	{
+		OutputFiltered.push(data.data[i]);
+	}
+    }
+}
+
+console.log("\n\nFiltered output entries: " + OutputFiltered.length);
+console.log("\nEntries found which includes search term '" + SearchTerm  +"' in title or description:");
+console.table(OutputFiltered);
+
+
+console.log("\nTotal entries checked: " + Output.length);
+//console.log("\nAll entries (Max. 1000 in console output):");
+//console.table(Output);
+
+</SCRIPTCODE>
+
