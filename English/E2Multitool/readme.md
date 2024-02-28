@@ -71,6 +71,11 @@ Stake data<br>
 
 # Changelog
 
+#### V38.0:
+- Fixed "Jewel counter"-function(Stopped working due to an API change) 
+- Fixed "Jewel counter + list"-function(Stopped working due to an API change and almost the entire function had to be rewritten)
+- Fixed "Raid notifications analysis"- function. Is now working again.
+
 #### V37.1:
 - Code optimizations for "Other scripts" function
 
