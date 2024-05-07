@@ -1,0 +1,98 @@
+
+ //Skinstore purchases summary script by ExKcir (Ref-Code: E2Multitool)
+//For console
+//V1.0
+ 
+ 
+ 
+ 
+ function timeout(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+
+async function GetRAPIData(URL)
+{
+
+    var IsSuccessful = 0;
+    var APIData = null;
+
+    while(IsSuccessful == 0)
+    {
+        
+        try{
+            let response = await fetch("https://r.earth2.io/" + URL + "&_=" + (new Date().getTime()), {
+                "headers": {
+                    "accept": "application/json, text/plain, */*",
+                    "accept-language": "de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7",
+                    "if-none-match": "W/\"438bf420f0c924bf1d4785abddc1e1e6\"",
+                    "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"98\", \"Google Chrome\";v=\"98\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "sec-ch-ua-platform": "\"Windows\"",
+                    "sec-fetch-dest": "empty",
+                    "sec-fetch-mode": "cors",
+                    "sec-fetch-site": "same-site",
+                    "x-csrftoken": document.getElementsByName("csrfmiddlewaretoken")[0].value
+                },
+                "referrer": "https://app.earth2.io/",
+                "referrerPolicy": "strict-origin-when-cross-origin",
+                "method": "GET",
+                "mode": "cors",
+                "credentials": "include"
+            });
+
+            APIData = await response.json();
+            IsSuccessful = 1 ;
+
+           
+
+             }catch(error){
+            IsSuccessful = 0;
+            console.log(error);
+            console.log('Error: ' + error.status + ' - Script waits now 2 minutes and then tries again!');
+            
+            await timeout(120000);
+        }
+
+    }
+
+
+
+    //Speed throttling
+   
+       //console.log("Speed throttling: Wait " + 300 + "ms");
+       await timeout(300);
+
+   return APIData;
+}
+
+
+
+
+
+
+ var TotalTransactions = 0;
+ var TotalSpent = 0;
+ var k = 0;
+    do
+    {
+        //console.log("Checking skin purchases page " + (k+1) + " ...");
+
+        var APIData = await GetRAPIData("transactions/balance_changes?perPage=10&type=AVATAR_PURCHASE&page=" + (k+1));
+
+        
+        for(var l = 0; l<Object.keys(APIData.data).length; l++)
+        {
+			TotalTransactions++;
+			TotalSpent+= APIData.data[l].attributes.amount;
+			console.log("" + APIData.data[l].attributes.description + ": " + APIData.data[l].attributes.amount + "E$");
+        }
+
+        k++;
+    }while(APIData.meta.totalCount > ((k)*10))
+	
+	console.log("--------------------------------------------------------------------------");
+	console.log("Total transactions: " + TotalTransactions);
+	console.log("Total E$ spent: " + TotalSpent);
+	
+
